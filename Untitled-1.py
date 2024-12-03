@@ -15,7 +15,7 @@ application = ApplicationBuilder().token(TOKEN).build()
 
 # Обработчик команды /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Привет, я бот на Python!")
+    await update.message.reply_text("Саламалекум. Текст, картинки, стикеры - присылай мне, а я верну обратно.")
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Это бот, который демонстрирует основные команды. Попробуй /start.")
